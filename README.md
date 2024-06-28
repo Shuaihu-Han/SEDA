@@ -16,7 +16,7 @@ Our programs are tested under PyTorch 1.8.1 + CUDA 10.2.
 1. Setup Python environment. We encourage using conda to setup the python virtual environment.
    `conda create -n seda python==3.8 && conda activate seda`
 2. Install the CUDA toolkit and Pytorch.
-   `conda install cudatoolkit=10.2 && pip install torch==1.8.1+cu102 -f https://download.pytorch.org/whl/torch_stable.html`
+   `pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 --extra-index-url https://download.pytorch.org/whl/cu116 -i https://pypi.tuna.tsinghua.edu.cn/simple``
 4. Install the pip packages.
    `pip install -r requirements.txt`
 5. Install the circumst_event package
