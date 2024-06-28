@@ -11,4 +11,4 @@ numpy==1.21.1
 six~=1.16.0
 h5py~=3.3.0
 d2l==1.0.0a1
-torchvision
+tensorboard==2.12.0
